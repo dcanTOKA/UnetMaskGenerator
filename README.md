@@ -2,6 +2,14 @@
 
 Bu araç, verilen anotasyonlar ve görseller üzerinden maskeleme işlemi yapmak için tasarlanmıştır. Aşağıdaki adımları takip ederek maskeleme işlemini başlatabilirsiniz.
 
+## Gerekli Paketlerin Yüklenmesi
+
+Gerekli paketlerin yüklenmesi için aşağıdaki komutu çalıştırın
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Adım 1: Dosyaların Hazırlanması
 
 Lütfen anotasyon dosyanızı ve mask oluşturulacak görsellerinizi zip formatında `/data` klasörüne yerleştiriniz.
@@ -19,6 +27,12 @@ python main.py --zip_path="./data/FILE_NAME_WITH_ZIP_EXT" --images_zip_path="./d
 # Welcome to UnetMaskGenerator
 
 This tool is designed to perform masking operations on given annotations and images. Follow the steps below to start the masking process.
+
+## Install the necessary packages by using the command below
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Step 1: Preparing Your Files
 
